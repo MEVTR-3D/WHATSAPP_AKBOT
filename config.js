@@ -3,24 +3,24 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
+global.owner = process.env.OWNER_NUMBER.split("237659074870")
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port= process.env.PORT || 5000
 global.email = 'akshitbot4.0@gmail.com'
 global.github = 'https://github.com/akshitbhatia2004/WHATSAPP_AKBOT'
 global.location = 'Sultanpur IN'
 global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '919971606684'
-global.devs = '919971606684';
+global.sudo = process.env.SUDO || '237659074870'
+global.devs = '237659074870';
 global.website = 'https://github.com/akshitbhatia2004/WHATSAPP_AKBOT' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/ghex9sW.jpg'
 module.exports = {
-  botname: process.env.BOT_NAME || '𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏_𝐀𝐊𝐁𝐎𝐓',
-  ownername:process.env.OWNER_NAME || 'akshitbhatia2004',
+  botname: process.env.BOT_NAME || 'MEVTR_3D',
+  ownername:process.env.OWNER_NAME || 'MEVTR_3D',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 
-  auto_read_status : process.env.AUTO_READ_STATUS || 'false',
-  packname: process.env.PACK_INFO.split(";")[1] || 'Name',
+  auto_read_status : process.env.AUTO_READ_STATUS || 'true',
+  packname: process.env.PACK_INFO.split(";")[1] || 'MEVTR',
   autoreaction: process.env.AUTO_REACTION || 'off',
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokey',
   alwaysonline: process.env.ALWAYS_ONLINE || 'false',
